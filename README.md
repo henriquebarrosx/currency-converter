@@ -40,7 +40,7 @@ npm run prisma:generate
 3. Run the project
 
 ```bash
-npm run start
+npm run dev
 ```
 
 <br>
