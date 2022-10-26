@@ -15,7 +15,7 @@ export class CreateTransactionController {
             return response.status(201).json(transactionOutDto)
         }
 
-        catch (error: any) {
+        catch (error) {
             Log.info({
                 message: error?.message || "Unexpected error",
                 timestamp: new Date().toISOString()

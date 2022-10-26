@@ -13,7 +13,7 @@ export class ListTransactionsController {
             return response.status(200).json(transactions)
         }
 
-        catch (error: any) {
+        catch (error) {
             Log.info({
                 message: error?.message || "Unexpected error",
                 timestamp: new Date().toISOString()
